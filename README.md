@@ -27,5 +27,5 @@ If you find this useful and if you want to contribute, there are three ways:
 
 ## License
 
-[//]: # ([]&#40;LICENSE&#41;)
+[MIT](LICENSE)
 
