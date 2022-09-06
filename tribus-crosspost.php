@@ -4,7 +4,7 @@
  *  Plugin Name: Tribus Crosspost Plugin
  *  Description: Duplicates posts to site's on the network.
  *  Version: 1.0.0
- *  Author: Shane Muirhead
+ *  Author: Tribus Digital
  *  Author URI: https://tribusdigital.com/
  */
 
@@ -31,7 +31,7 @@ class MultisiteCrosspostPlugin {
     <?php }
 
     function adminPage() {
-        add_options_page('Tribus Crosspost Settings', 'Tribus Cross Post',
+        add_options_page('Tribus Crosspost Settings', 'Tribus Crosspost Settings',
             'manage_options', 'tribus-crosspost-settings-page', array($this, 'ourHTML'));
     }
 
